@@ -27,7 +27,7 @@ A virtualenv is recommended for using this. Inside a virtualenv, you
 can install this extension easily!
 
 ```bash
-pip install nbheapanalytics
+pip install git+ssh://git@github.com/oreillymedia/nbheapanalytics
 
 jupyter nbextensions install --py --sys-prefix nbheapanalytics
 ```

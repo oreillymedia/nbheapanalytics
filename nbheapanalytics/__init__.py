@@ -41,7 +41,8 @@ class HeapAnalytics(Configurable):
                 }
             }
         )
+        return cm
 
 def load_jupyter_server_extension(nbapp):
-    ga = Heapnalytics(parent=nbapp)
-    ga.setup_config()
+    ga = HeapAnalytics(parent=nbapp)
+    return ga.setup_config()
