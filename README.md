@@ -48,5 +48,5 @@ You can easily pass that to the extension by passing it as a commandline
 parameter.
 
 ```bash
-jupyter notebook --HeapAnalytics.tracking_id="UA-NNNNN-N"
+jupyter notebook --HeapAnalytics.tracking_id="\"<id>\""
 ```
